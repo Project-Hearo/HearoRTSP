@@ -3,6 +3,6 @@ webrtc: yes
 hls: yes
 
 paths:
- robot:
-   publishUser: robot
-   publishPass: robotpass
+  robot:
+    publishUser: robot
+    publishPass: robotpass
