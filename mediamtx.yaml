@@ -1,0 +1,8 @@
+rtsp: yes
+webrtc: yes
+hls: yes
+
+paths:
+ robot:
+    publishUser: robot
+    publishPass: robotpass
