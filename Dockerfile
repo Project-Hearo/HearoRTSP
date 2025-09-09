@@ -20,6 +20,6 @@ EXPOSE 1935/tcp
 # SRT 입력(예시 포트)
 EXPOSE 8890/udp
 
-# 어떤 내장 YAML도 절대 읽지 않도록 "없는 경로"를 강제로 지정
 ENTRYPOINT ["/mediamtx"]
-CMD ["-conf", "/does-not-exist.yml"]
+# 기본 실행은 config 없이
+CMD []
