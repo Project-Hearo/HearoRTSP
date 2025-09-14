@@ -1,6 +1,6 @@
 FROM bluenviron/mediamtx:latest
 
-COPY ./www /mediamtx/www
+COPY ./www /www
 
 ENV MTX_LOGLEVEL=debug \
     MTX_RTSP=yes \
