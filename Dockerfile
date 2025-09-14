@@ -1,6 +1,7 @@
 FROM bluenviron/mediamtx:latest
 
-# 로그 & 출력 프로토콜들
+COPY ./www /mediamtx/www
+
 ENV MTX_LOGLEVEL=debug \
     MTX_RTSP=yes \
     MTX_HLS=yes \
